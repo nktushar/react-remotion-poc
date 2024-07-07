@@ -3,7 +3,7 @@ import {interpolate, useCurrentFrame} from 'remotion';
 
 export const MyVideo = () => {
 	const frame = useCurrentFrame();
-	const opacity = interpolate(frame, [0, 30], [0, 1]);
+	const opacity = interpolate(frame, [0, 80], [0, 1]);
 
 	return (
 		<div
